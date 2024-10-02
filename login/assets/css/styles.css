@@ -12,6 +12,10 @@
     --darky: #1d2b3a;
     --light-grey: rgb(105, 105, 105);
 }
+.share__description{
+    font-weight: bolder;
+    font-size: xx-large;
+}
 
 
 /*
