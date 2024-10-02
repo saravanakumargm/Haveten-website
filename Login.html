@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#06aa5e">
+    <meta name="msapplication-navbutton-color" content="#06aa5e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Sign up | Basket ™</title>
+    <link rel="shortcut icon" href="./login/assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./login/assets/css/styles.css">
+    <script src="./login/assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Haveten invesment</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/index.html" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#share" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="#decoration" class="nav__link">Our Services</a></li>
+                    <li class="nav__item"><a href="#accessory" class="nav__link">Invest Now</a></li>
+                    <li class="nav__item"><a href="/Login.html" class="nav__link">Login</a></li>
+                    <li class="nav__item"><a href="/Register.html" class="nav__link">Register</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="card-container slideUp-animation">
+        <div class="image-container">
+            <h1 class="company">Basket <sup>&trade;</sup></h1>
+            <img src="./login/assets/images/signUp.svg" class="illustration" alt="">
+            <p class="quote">Login</p>
+            <a href="#btm" class="mobile-btm-nav">
+                <img src="./login/assets/images/dbl-arrow.png" alt="">
+            </a>
+        </div>
+        <form action="" method="">
+            <div class="form-container slideRight-animation">
+    
+                <h1 class="form-header">
+                    Get started
+                </h1>
+
+    
+    
+                <div class="input-container">
+                    <label for="mail">
+                    </label>
+                    <input type="email" name="mail" id="mail" required>
+                    <span>
+                        E-mail 
+                    </span>
+                    <div class="error"></div>
+                </div>
+    
+    
+                <div class="input-container">
+                    <label for="user-password"></label>
+                    <input type="password" name="user-password" id="user-password" class="user-password" required>
+                    <span>Password</span>
+                    <div class="error"></div>
+                </div>
+
+                <div id="btm">
+                    <button type="submit" class="submit-btn"><a href="/index.html" class="nav__link">Login</a></button>
+                    <p class="btm-text">
+                        Already have not an account..? <span class="btm-text-highlighted"> <a href="/Register.html" class="nav__link">Register</a></span>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <section class="outro-overlay disabled slideUp-animation">
+        <h1 class="company">Havteen <sup>&trade;</sup></h1>
+        <h1 class="outro-greeting">Thank's for Login up..!</h1>
+        <img src="./login/assets/images/shape.svg" alt="" class="shape">
+        <img src="./login/assets/images/signedUp.svg" alt="" id="signedUp-illustration" class="slideRight-animation">
+        
+    </section>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
