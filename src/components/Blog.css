@@ -1,0 +1,11 @@
+/* for blog content  */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.para-1 {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.8;
+}
+#Blog {
+  /* border: 1px solid red; */
+  width: 350px;
+}

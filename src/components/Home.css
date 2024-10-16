@@ -1,0 +1,42 @@
+/* this is Heading */
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+
+/* this is for  contents */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ---- */
+#Home h1 {
+  font-family: "Headland One", serif;
+}
+#Home p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+.typewriter {
+  overflow: hidden;
+  height: 1em; /* or set a fixed height based on your font size */
+}
+
+@media screen and (max-width: 600px) {
+  /* for main heading and p tags code  */
+  #Home .mob-h {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 32px;
+  }
+  #Home .mob-p {
+    max-width: 340px;
+    padding-top: 20px;
+    padding-left: 18px;
+
+    /* margin-bottom: 69px; */
+  }
+  .mob-cont-div {
+    height: 480px;
+    /* border: 1px solid red; */
+  }
+  .mob-img {
+    width: 330px !important;
+    height: 400px;
+  }
+}

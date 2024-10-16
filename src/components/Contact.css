@@ -1,0 +1,24 @@
+/* this is for  contents */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+#Contact .email {
+  font-family: "Montserrat", sans-serif;
+}
+
+input::placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+}
+.mob-img {
+  /* border: 1px solid red; */
+  width: 350px;
+}
+@media screen and (max-width: 600px) {
+  input::placeholder {
+    font-size: 15px;
+  }
+}
