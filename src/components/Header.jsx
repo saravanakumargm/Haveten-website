@@ -29,16 +29,16 @@ function Header() {
           About
         </a>
         <a
-          href="#About"
+          href="#Blog"
           className="relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:h-[2px] after:w-full after:bg-[#02babb] after:transform after:scale-x-0 after:transition-transform after:duration-500 hover:after:scale-x-100"
         >
-          About
+          Blog
         </a>
         <a
-          href="#About"
+          href="#Contact"
           className="relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:h-[2px] after:w-full after:bg-[#02babb] after:transform after:scale-x-0 after:transition-transform after:duration-500 hover:after:scale-x-100"
         >
-          About
+          Contact
         </a>
         <button
           onClick={showNavbar}
