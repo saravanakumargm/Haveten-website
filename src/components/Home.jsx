@@ -1,6 +1,6 @@
 import HomeLogo from "../assets/hLogo1.png";
 import Aos from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 import { useEffect, useState } from "react";
 import "./Home.css";

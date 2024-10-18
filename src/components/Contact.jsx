@@ -1,10 +1,10 @@
+import { useEffect } from "react";
 import ContactImg from "../assets/Contact.png";
-import { MdEmail, MdMarkEmailRead } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import "./Contact.css";
 import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+// import "aos/dist/aos.css";
 function Contact() {
   useEffect(() => {
     Aos.init({ duration: 1700 });

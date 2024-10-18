@@ -1,0 +1,43 @@
+/* for content */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.f-blog-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.blog-para {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 18px;
+}
+body h1 {
+  margin-top: 50px !important;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #02bbab;
+  font-size: 35px;
+}
+
+/* Responsive Design Code */
+
+@media screen and (max-width: 600px) {
+  .f-blog-1 {
+    width: 330px !important;
+  }
+}

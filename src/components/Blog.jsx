@@ -1,8 +1,8 @@
+import { useEffect } from "react";
 import "./Blog.css";
 import Aos from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import { MdArrowOutward } from "react-icons/md";
-import { useEffect } from "react";
 
 function Blog() {
   useEffect(() => {
